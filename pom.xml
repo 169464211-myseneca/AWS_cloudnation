@@ -24,13 +24,15 @@
     		<sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
    		<sonar.language>java</sonar.language>
 	</properties>
-	
-<!--     <distributionManagement>
-        <repository>
-            <id>maven-releases</id>
-            <url>http://repourl/repository/maven-releases/</url>
-        </repository>
-    </distributionManagement>     -->
+ 	
+    <distributionManagement>
+      <repository>
+       <id>aws-codeartifact</id>
+       <name>AWS CodeArtifact Repository</name>
+       <url>https://aws-gmanghera-664418991887.d.codeartifact.us-east-1.amazonaws.com/maven/AWS_Cloudnation_maven/</url>
+      </repository>
+    </distributionManagement>
+
 	
 	<dependencies>
 		<dependency>
