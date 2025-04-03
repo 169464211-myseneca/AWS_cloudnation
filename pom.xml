@@ -27,7 +27,7 @@
  	
     <distributionManagement>
       <repository>
-       <id>aws-codeartifact</id>
+       <id>aws-gmanghera-AWS_Cloudnation_maven</id>
        <name>AWS CodeArtifact Repository</name>
        <url>https://aws-gmanghera-664418991887.d.codeartifact.us-east-1.amazonaws.com/maven/AWS_Cloudnation_maven/</url>
       </repository>
